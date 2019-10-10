@@ -1,0 +1,24 @@
+{
+    "name": "xing\/express-info",
+    "description": "a package for express information query",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xing",
+            "email": "xzr2873917821@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Xing\\ExpressInfo\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xing\\ExpressInfo\\ExpressInfoServiceProvider"
+            ]
+        }
+    }
+}
